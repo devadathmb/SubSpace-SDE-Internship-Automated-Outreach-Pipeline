@@ -31,7 +31,7 @@ export default async function runProspeo(domains) {
                     company: {
                         websites: { include: domains }
                     },
-                    person_seniority: { include: ["C-Suite", "Founder/Owner"] }
+                    person_seniority: { include: ["C-Suite", "Vice President", "Founder/Owner"] }
                 }
             })
         });
