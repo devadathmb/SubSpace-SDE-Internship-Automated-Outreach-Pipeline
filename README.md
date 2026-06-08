@@ -46,14 +46,17 @@ Create a .env file in the root directory.
 
 Add your keys:
 
-Code snippet
+#### Code snippet (.env) :
 OCEAN_API_KEY=your_key
 PROSPEO_API_KEY=your_key
 BREVO_API_KEY=your_key
+
 Execution
 Run the pipeline:
 
-Bash
+Bash:
 node index.js
+
 🛡️ Security Note
+
 This project uses .gitignore to protect sensitive configuration files. Ensure your .env and node_modules are never committed to your repository.
